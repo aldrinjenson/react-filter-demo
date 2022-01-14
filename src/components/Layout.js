@@ -22,7 +22,6 @@ const questions = [
 ];
 const Layout = ({ products }) => {
   const [filters, setFilters] = useState({});
-  console.log(filters);
   return (
     <div>
       <div className='row'>

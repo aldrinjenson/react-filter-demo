@@ -24,7 +24,6 @@ function App() {
       .catch((err) => console.log("error in fetching data: " + err))
       .finally(() => setLoading(false));
   }, []);
-  console.log(products);
 
   if (loading) {
     return (

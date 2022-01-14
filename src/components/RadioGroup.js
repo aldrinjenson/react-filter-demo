@@ -4,7 +4,7 @@ const options = [1, 2, 3, 4];
 const RadioGroup = ({ currentVal, handleChange }) => {
   return (
     <div>
-      <form action='#' onChange={(e) => console.log(e.target.checked)}>
+      <form action='#'>
         {options.map((val, index) => (
           <p key={index}>
             <label>
